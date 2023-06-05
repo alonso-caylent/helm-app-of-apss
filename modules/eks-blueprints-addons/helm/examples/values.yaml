@@ -2,5 +2,5 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: git@github.com:lytxinc/devops-pipeline-infra.git
-    targetRevision: add-blueprints
+    repoURL: git@github.com:alonso-caylent/helm-app-of-apss.git
+    targetRevision: main

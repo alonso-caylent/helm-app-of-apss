@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: modules/eks-blueprints-addons/helm/charts/demo-chart
-    repoURL: git@github.com:lytxinc/devops-pipeline-infra.git
-    targetRevision: add-blueprints
+    repoURL: git@github.com:alonso-caylent/helm-app-of-apss.git
+    targetRevision: main
