@@ -1,0 +1,6 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: git@github.com:lytxinc/devops-pipeline-infra.git
+    targetRevision: add-blueprints

@@ -1,0 +1,9 @@
+apiVersion: v2
+name: demo-chart
+description: A Helm chart for Kubernetes - Demo
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+maintainers:
+- email: juan.bonilla@caylent.com
+  name: jdiegobonillap

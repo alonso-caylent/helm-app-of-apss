@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: demo-chart
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: examples
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: modules/eks-blueprints-addons/helm/charts/demo-chart
+    repoURL: git@github.com:lytxinc/devops-pipeline-infra.git
+    targetRevision: add-blueprints

@@ -1,0 +1,5 @@
+secret_store:
+  name: external-secret
+  region: us-west-2
+  secret:
+    name: awssm-secret
